@@ -11,6 +11,9 @@
 		<li>It is not possible to navigate to option C using only the keyboard (tab, arrow keys).</li>
 		<li>The "loop" option is enabled, so with A selected you can hit the "up" arrow key to loop around
 			to "E", and then from "E" hit "down" to loop back around to "A".</li>
+		<li>From "A" you <em>should be able to</em> (but can't, because of this bug) hit the "down" arrow
+			key which would take you to option "C" since "B" is disabled. (And again would take you to
+			"E" since "D" is disabled.)</li>
 	</ul>
 	<RadioGroup initialValue={'a'} options={[
 		{ label: 'A', value: 'a' },
