@@ -4,7 +4,7 @@
 
 <div class="p-4">
 	<h1 class="font-bold text-3xl">Notes:</h1>
-	<p class="my-4">This is a reproduction example for <a href="https://github.com/melt-ui/melt-ui/issues/820">this bug</a> in Melt-ui.</p>
+	<p class="my-4">This is a reproduction example for <a class="text-sky-700 underline font-semibold" href="https://github.com/melt-ui/melt-ui/issues/820">this bug</a> in Melt-ui.</p>
 	<ul class="list-inside list-disc mb-6">
 		<li>Options B and D are disabled.</li>
 		<li>A is pre-selected as the initial value.</li>
